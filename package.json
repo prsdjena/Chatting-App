@@ -1,0 +1,19 @@
+{
+  "name": "Black-box encrypted Chat",
+  "version": "1.0.0",
+  "node":"8.1.4",
+  "license": "MIT",
+  "author": "prasadjena333@gmail.com",
+  "description": "Encrypted Chat App (RSA-2048).",
+  "main": "app.js",
+  "engines": {
+    "node": ">=7.6"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "dependencies": {
+    "express": "4.15.3",
+    "socket.io": "2.0.3"
+  }
+}
